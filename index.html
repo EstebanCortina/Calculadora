@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+  <TITLE>CalculadoraJs</TITLE>
+  <LINK type="text/css" href="./CalcCSS.css" rel="stylesheet">
+  <META charset="UTF-8">
+  <META name="viewport" content="width=device-width, initial-scale=1.0">
+  <META http-equiv="X-UA-Compatible" content="ie=edge">
+  <META name="theme-color" content="#1B1B1B">
+  <META name="MobileOptimized" content="width">
+  <META name="HandheldFriendly" content="true">
+  <META name="apple-mobile-web-app-capable" content="yes">
+  <META name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <LINK rel="shortcut icon" type="image/png" href="./calc.png">
+  <LINK rel="apple-touch-icon" href="./calc.png">
+  <LINK rel="apple-touch-startup-image" href="./calc.png">
+  <LINK rel="manifest" href="./manifest.json">
+
+</HEAD>
+
+<BODY bgcolor="#1B1B1B" onload="init()" ;>
+
+  <TABLE class="Calculadora">
+
+    <TD colspan="4"><SPAN id="pantalla"></SPAN></TD>
+
+    <TR>
+      <TD><BUTTON class="boton" id="borrar">AC</BUTTON></TD>
+      <TD><BUTTON class="boton" id="masMenos">+/-</BUTTON></TD>
+      <TD><BUTTON class="boton" id="porciento">%</BUTTON></TD>
+      <TD><BUTTON class="boton" id="dividir">÷</BUTTON></TD>
+
+    </TR>
+    <TR>
+      <TD><BUTTON class="boton" id="siete">7</BUTTON></TD>
+      <TD><BUTTON class="boton" id="ocho">8</BUTTON></TD>
+      <TD><BUTTON class="boton" id="nueve">9</BUTTON></TD>
+      <TD><BUTTON class="boton" id="multi">x</BUTTON></TD>
+    </TR>
+    <TR>
+      <TD><BUTTON class="boton" id="cuatro">4</BUTTON></TD>
+      <TD><BUTTON class="boton" id="cinco">5</BUTTON></TD>
+      <TD><BUTTON class="boton" id="seis">6</BUTTON></TD>
+      <TD><BUTTON class="boton" id="menos">-</BUTTON></TD>
+    </TR>
+    <TR>
+      <TD><BUTTON class="boton" id="uno">1</BUTTON></TD>
+      <TD><BUTTON class="boton" id="dos">2</BUTTON></TD>
+      <TD><BUTTON class="boton" id="tres">3</BUTTON></TD>
+      <TD><BUTTON class="boton" id="mas">+</BUTTON></TD>
+    </TR>
+
+
+    <TR>
+      <TD><BUTTON class="boton" id="cero">0
+        </BUTTON></TD>
+      <TD><button class="boton" id="espacio"></button></TD>
+      <TD><BUTTON class="boton" id="punto">.</BUTTON></TD>
+      <TD><BUTTON class="boton" id="igual">=</BUTTON></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD><BUTTON class="boton" id="mmenos">M-</BUTTON></TD>
+      <TD><BUTTON class="boton" id="mmas">M+</BUTTON></TD>
+      <TD><BUTTON class="boton" id="mostrar">MR</BUTTON></TD>
+    </TR>
+  </TABLE>
+
+  <SCRIPT src="CalcJS.js"></SCRIPT>
+  <SCRIPT src="app1.js"></SCRIPT>
+</BODY>
+
+</HTML>

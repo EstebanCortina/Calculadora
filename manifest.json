@@ -1,0 +1,17 @@
+{
+    "name": "CalculadoraPWA",
+    "short_name": "Calculadora",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#1B1B1B",
+    "theme_color": "#1B1B1B",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/calc.png",
+            "type": "image/png",
+            "sizes": "144x144"
+
+        }
+    ]
+}

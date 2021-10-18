@@ -1,54 +1,64 @@
-
-.Calculadora{
-	display:block;
-	padding: 6px;
-	margin: 0 auto;
-	background-color: #1B1B1B ;
-	margin-left: -8px;
-	width: 403px;
-	height: 828px;
-	border-radius: 35px;
+.Calculadora {
+  margin: auto;
+  background-color: #1b1b1b;
+  height: auto;
+}
+td button {
+  display: block;
+  width: 97px;
+  height: 97px;
+  font-size: 25px;
+  border-radius: 55px;
 }
 
-.Calculadora td button{
-	display: block;
-	width: 97px;
-	height: 97px;
-	font-size: 25px;
-	border-radius: 55px;
+#pantalla {
+  display: block;
+  color: #ffffff;
+  text-align: right;
+  font-family: Arial;
+  font-size: 80px;
+  margin-bottom: 20px;
+  margin-top: 74px;
+  margin-right: 3px;
+  margin-left: 10px;
+  width: 386px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #1b1b1b;
+  border-radius: 25px;
 }
 
-
-#pantalla{
-	display: block;
-	color: #FFFFFF;
-	text-align: right;
-	font-family: Arial;
-	font-size: 80px;
-	margin-bottom: 20px;
-	margin-top: 74px;
-	margin-right: 3px;
-	width: 386px;
-	height: 100px;
-	line-height: 100px;
-	background-color: #1B1B1B ;
-	border-radius: 25px;
+#siete,
+#ocho,
+#nueve,
+#cuatro,
+#cinco,
+#seis {
+  background-color: #7d7777;
 }
 
-
-
-#siete, #ocho, #nueve, #cuatro, #cinco, #seis{
-	background-color: #7D7777  ;
+#uno,
+#dos,
+#tres,
+#cero,
+#punto,
+#espacio {
+  background-color: #7d7777;
 }
 
-#uno, #dos, #tres, #cero, #punto, #espacio{
-	background-color: #7D7777 
+#dividir,
+#multi,
+#menos,
+#mas,
+#igual {
+  background-color: #ff9c0c;
 }
 
-#dividir, #multi, #menos, #mas, #igual{
-	background-color: #FF9C0C 
-}
-
-#borrar, #masMenos, #porciento, #mmenos, #mmas, #mostrar{
-	background-color: #7D7777;
+#borrar,
+#masMenos,
+#porciento,
+#mmenos,
+#mmas,
+#mostrar {
+  background-color: #7d7777;
 }
